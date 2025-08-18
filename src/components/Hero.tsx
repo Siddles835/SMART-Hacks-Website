@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Code, Users, Zap, ChevronDown } from 'lucide-react';
 
 const Hero = () => {
-  const words = ['Coders', 'Innovators', 'Developers', 'Thinkers', 'Founders'];
+  const words = ['Coders', 'Innovators', 'Developers', 'Thinkers', 'Founders', 'Engineers', 'Problem Solvers', 'Data Scientists', 'Creators'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
@@ -75,8 +75,8 @@ const Hero = () => {
         </div>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Join our community of innovators and problem solvers at Redmond High School!
-          Build skills, solve real-world challenges, and shape the future of technology.
+          Join our community of innovators and problem solvers!
+          Build skills, solve real-world challenges, and shape the future of our World.
         </p>
         
         {/* Bouncing scroll down arrow */}

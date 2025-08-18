@@ -6,6 +6,7 @@ import Activities from '../components/Activities';
 import SummerCamps from '../components/SummerCamps';
 import Contact from '../components/Contact';
 import Navigation from '../components/Navigation';
+import TeamSection from '@/components/Staff';
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <About />
       <Activities />
       <SummerCamps />
+      <TeamSection />
       <Contact />
     </div>
   );

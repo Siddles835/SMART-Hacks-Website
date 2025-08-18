@@ -5,7 +5,7 @@ const SummerCamps = () => {
   const camps = [
     {
       title: 'Basic Python Camp',
-      date: 'July 14-18 (9 AM - 1 PM)',
+      date: 'TBD',
       description: 'Learn Python fundamentals with fun projects. Great for beginners—no experience required!',
       icon: '🐍',
       color: 'from-yellow-400 to-orange-500',
@@ -14,7 +14,7 @@ const SummerCamps = () => {
     },
     {
       title: 'Intermediate Python Camp',
-      date: 'July 21-25 (9 AM - 1 PM)',
+      date: 'TBD',
       description: 'Learn Advanced Python like Stacks, Sets, Graphs, Algorithms, and OOP in 5 days of Python fun.',
       icon: '🐍',
       color: 'from-blue-400 to-blue-600',
@@ -22,17 +22,17 @@ const SummerCamps = () => {
       neonClass: 'neon-border-blue'
     },
     {
-      title: 'Web Development Camp',
-      date: 'July 28 - Aug 1 (2-6 PM)',
-      description: 'Build and deploy websites using HTML, CSS, JavaScript, and backend tools.',
+      title: 'Web Design 101',
+      date: 'August 25 - 29 (12-1 PM)',
+      description: 'Build and deploy websites using HTML, CSS, and JavaScript, and learn to create your very own page.',
       icon: '🌐',
       color: 'from-orange-400 to-red-500',
       level: 'All Levels',
       neonClass: 'neon-border-purple'
     },
     {
-      title: 'Java Code Camp',
-      date: 'Aug 4-8 (10 AM - 2 PM)',
+      title: 'AI and Machine Learning Camp',
+      date: 'TBD',
       description: 'Master Java syntax, OOP principles, and build cool simulations and games.',
       icon: '☕',
       color: 'from-red-400 to-pink-500',
@@ -46,7 +46,7 @@ const SummerCamps = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Summer Code Camps 2025
+            SMART Camps 2025
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto rounded-full mb-8"></div>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
@@ -100,9 +100,11 @@ const SummerCamps = () => {
             <p className="text-gray-300 mb-6 text-lg">
               Get in touch with our team for more information about schedules, prerequisites, and registration.
             </p>
+            <a href="https://mail.google.com/mail/u/0/#inbox" className="flex-grow md:flex-grow-0">
             <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-semibold">
               Contact Us
             </button>
+            </a>
           </div>
         </div>
       </div>

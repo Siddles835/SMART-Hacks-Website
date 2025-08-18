@@ -1,6 +1,6 @@
-
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import infinityLogo from '/Users/sidhaanthkapoor/Desktop/rhs-club-website-better/rhs-club-website-better/src/components/Screenshot 2025-08-11 at 7.03.03 PM.png'; // Make sure the path is correct
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,11 +8,12 @@ const Navigation = () => {
   const navItems = [
     { name: 'About', href: '#about' },
     { name: 'Events', href: '#activities' },
-    { name: 'Summer Camps', href: '#camps' },
+    { name: 'SMART Camps', href: '#camps' },
+    { name: 'SMART Staff', href: '#team' },
     { name: 'Contact', href: '#contact' },
   ];
 
-  const handleNavClick = (href: string) => {
+  const handleNavClick = (href) => {
     setIsOpen(false);
     const element = document.querySelector(href);
     if (element) {
@@ -24,9 +25,10 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
+          <div className="flex items-center">
+            <img src={infinityLogo} alt="SMART Hacks Logo" className="h-8 w-auto mr-3" />
             <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Redmond High CS Club
+              SMART Hacks - Coding For The Youth
             </h1>
           </div>
           
@@ -59,7 +61,7 @@ const Navigation = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-gray-900 border-t border-gray-700 animate-fade-in">
+        <div className="md:hidden bg-gray-900 border-t border-gray-700">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
               <button
