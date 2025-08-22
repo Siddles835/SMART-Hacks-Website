@@ -1,7 +1,7 @@
-import Sidhaanth from '/Users/sidhaanthkapoor/Desktop/rhs-club-website-better/rhs-club-website-better/src/components/IMG_1571.jpg';
-import Dmitriy from '/Users/sidhaanthkapoor/Desktop/rhs-club-website-better/rhs-club-website-better/src/components/IMG_0155.jpg';
-import Pratham from '/Users/sidhaanthkapoor/Desktop/rhs-club-website-better/rhs-club-website-better/src/components/Screenshot 2025-08-17 at 7.39.58 PM.png';
-import Sathvik from '/Users/sidhaanthkapoor/Desktop/rhs-club-website-better/rhs-club-website-better/src/components/image.png';
+import Sidhaanth from '@/assets/Sidhaanth.png';
+import Dmitriy from '@/assets/Dmitriy.jpg';
+import Pratham from '@/assets/Pratham.png';
+import Sathvik from '@/assets/Sathvik.png';
 
 const TeamSection = () => {
     const teamMembers = [

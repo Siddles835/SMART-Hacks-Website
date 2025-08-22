@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import infinityLogo from '/Users/sidhaanthkapoor/Desktop/rhs-club-website-better/rhs-club-website-better/src/components/Screenshot 2025-08-11 at 7.03.03 PM.png'; // Make sure the path is correct
+import infinityLogo from '@/assets/Logo.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
