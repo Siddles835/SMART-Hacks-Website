@@ -1,4 +1,4 @@
-import Sidhaanth from '@/assets/Sidhaanth.png';
+import Sidhaanth from '@/assets/Sidhaanth.jpg';
 import Dmitriy from '@/assets/Dmitriy.jpg';
 import Pratham from '@/assets/Pratham.png';
 import Sathvik from '@/assets/Sathvik.png';
